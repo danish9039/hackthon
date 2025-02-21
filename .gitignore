@@ -1,3 +1,4 @@
 # Add these lines
 backend/config.env
+frontend/config.env
 *.env

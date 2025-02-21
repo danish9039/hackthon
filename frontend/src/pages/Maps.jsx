@@ -123,7 +123,7 @@ const Maps = () => {
                         {place.photos?.length > 0 && (
                           <div className="relative h-24 w-24 overflow-hidden rounded-lg">
                             <img
-                              src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${place.photos[0].photo_reference}&key=AIzaSyAeMTpDdYfT5JywgwVaaHoEqIhcmvkMN4A`}
+                              src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${place.photos[0].photo_reference}&key=enter_api_key`}
                               alt={place.name}
                               className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
                             />
